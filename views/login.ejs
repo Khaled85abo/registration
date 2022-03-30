@@ -1,0 +1,23 @@
+<%- include('./partials/Header'); -%>
+
+<h1>Login</h1>
+<form action="/login" method="POST">
+  <label for="email">Email</label>
+  <input
+    type="email"
+    id="email"
+    placeholder="Enter your e-mail Habibi"
+    name="email"
+    required
+  />
+  <label for="password">Password</label>
+  <input
+    type="password"
+    id="password"
+    name="password"
+    placeholder="Enter your password"
+    required
+  />
+  <input type="submit" />
+</form>
+<%- include('./partials/Footer'); -%>

@@ -7,3 +7,17 @@
 body {
   background: lightgray;
 }
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+}
+header > nav {
+  padding: 0.5rem;
+}
+header > nav > a {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background-color: lightgray;
+}
